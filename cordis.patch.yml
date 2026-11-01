@@ -1,0 +1,9 @@
+# dsh-workspace-rail bundle patch: mount the dual-face workspace rail plugin.
+# The client half loads immediately (platform: web) and keeps its state on the
+# host behind the rail's own API (/workspace-rail/api, ~/.dsh/workspace-rail/state.json).
+# On DSH 0.1.5 the host half also registers the `workspace-rail` settings
+# namespace (first-boot seed and the transcript-window bridge); DSH 0.2.x has
+# no registrable namespaces and the plugin runs without one.
+- insert:
+    - id: workspace-rail
+      name: dsh-workspace-rail
