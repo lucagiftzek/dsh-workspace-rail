@@ -1,9 +1,12 @@
 # dsh-workspace-rail
 
+[![npm](https://img.shields.io/npm/v/%40lucagiftzek%2Fdsh-workspace-rail?label=npm)](https://www.npmjs.com/package/@lucagiftzek/dsh-workspace-rail)
+
 A workspace-first sidebar for DSH: pinned chats, projects as folders, live Recents and unread markers.
 
 ```bash
-dsh plugin --profile web add github:lucagiftzek/dsh-workspace-rail
+dsh plugin --profile web add @lucagiftzek/dsh-workspace-rail
+# or from GitHub: dsh plugin --profile web add github:lucagiftzek/dsh-workspace-rail
 # then restart dsh web
 ```
 
@@ -21,8 +24,11 @@ Runs on DSH 0.2.x (tested on 0.2.1) and on DSH 0.1.5 with the same build.
 
 ## Install
 
+Install from npm: `dsh plugin --profile web add @lucagiftzek/dsh-workspace-rail`, or from GitHub: `dsh plugin --profile web add github:lucagiftzek/dsh-workspace-rail`.
+
 ```sh
-dsh plugin --profile web add github:lucagiftzek/dsh-workspace-rail
+dsh plugin --profile web add @lucagiftzek/dsh-workspace-rail
+# or from GitHub: dsh plugin --profile web add github:lucagiftzek/dsh-workspace-rail
 ```
 
 The package declares `dsh.bundle`, so `dsh plugin add` lists it in the

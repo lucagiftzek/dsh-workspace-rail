@@ -1,5 +1,5 @@
 {
-  "name": "dsh-workspace-rail",
+  "name": "@lucagiftzek/dsh-workspace-rail",
   "version": "0.2.0",
   "description": "Workspace-first sidebar rail for the DeepSeek Harness web GUI: pinned chats and folders, projects with their own folder and instructions, virtualized Recents, transcript search and unread markers.",
   "license": "Apache-2.0",
@@ -16,7 +16,9 @@
     "README.md",
     "assets",
     "cordis.patch.yml",
-    "lib"
+    "lib",
+    "!lib/**/*.map",
+    "!lib/*.map"
   ],
   "dsh": {
     "bundle": {
@@ -83,5 +85,8 @@
     "projects",
     "sidebar",
     "workspace"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

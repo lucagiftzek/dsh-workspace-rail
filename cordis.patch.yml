@@ -6,4 +6,4 @@
 # no registrable namespaces and the plugin runs without one.
 - insert:
     - id: workspace-rail
-      name: dsh-workspace-rail
+      name: '@lucagiftzek/dsh-workspace-rail'

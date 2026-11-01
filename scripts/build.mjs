@@ -14,7 +14,7 @@
 import { build } from 'esbuild'
 import { mkdirSync, readFileSync } from 'node:fs'
 
-const ID = 'dsh-workspace-rail'
+const ID = '@lucagiftzek/dsh-workspace-rail'
 const HOST_EXTERNALS = ['@deepseek-ai/schemastery', '@deepseek-ai/dsh-settings', '@deepseek-ai/dsh-session']
 // Platform seed words the shell shares into the module table; any other value
 // import inlines a second copy. (P0 rail UI is framework-free vanilla DOM.)
