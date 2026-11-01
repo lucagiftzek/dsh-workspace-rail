@@ -1,6 +1,6 @@
 {
   "name": "@lucagiftzek/dsh-workspace-rail",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Workspace-first sidebar rail for the DeepSeek Harness web GUI: pinned chats and folders, projects with their own folder and instructions, virtualized Recents, transcript search and unread markers.",
   "license": "Apache-2.0",
   "type": "module",

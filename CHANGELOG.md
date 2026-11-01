@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1 (2026-11-02)
+
+- **Fix: low-contrast text on accent buttons in dark mode.** Without a theme that sets `--tz-on-accent`, text on accent fills (pressed segments, primary buttons, Go, count tags) was hard-coded white on the host link colour, which is light blue in dark mode. It now uses the host background colour (`--dsw-alias-bg-base`), which the link colour is designed to contrast with, so it stays readable in light and dark.
+
 ## 0.2.0 (2026-11-02)
 
 First public release.
